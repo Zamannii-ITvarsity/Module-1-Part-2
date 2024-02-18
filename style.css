@@ -1,0 +1,409 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+}
+
+#header{
+      position: fixed;
+      top     : 0px;
+      left    : 0px;
+      z-index : 500;
+      width   :100%;
+      height  :80px;
+}
+
+/* Header image settings */
+
+#header img{
+    display: block;
+    position: sticky;
+    margin: auto;
+    height: 60px;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom:0px;
+    background-image:url(images/1516431964191.jpeg);
+    background-repeat: repeat-x;
+}
+
+
+
+#tabs-top{
+    position: fixed;
+    top: 60px;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 35px;
+    background-color: black;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+
+#tabs-top a{
+    float: left;
+    display: block;
+    width: 33%;
+    height: 33px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+
+#tabs-top a:hover{
+    color: dimgray;
+}
+
+#main{
+    position: absolute;
+    margin-top: 100px;
+    background-image: url(images/296d6cd922e33402af443149d3793d9d.jpg);
+}
+
+#main-menu{
+    margin: auto;
+    background-image: url(images/c8f65b97850391.5ecec808541f4.jpg);
+    background-repeat: repeat-y;
+}
+
+#content{
+    padding-top: 5px;
+    padding-bottom: 45px;
+}
+
+#tabs-bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 35px;
+    background-color: black;
+}
+
+
+
+#tabs-bottom a{
+    float: left;
+    display: block;
+    width: 33%;
+    height: 33px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+
+
+#tabs-bottom a:hover{
+    color: dimgray;
+}
+
+
+a.info-box{
+    text-decoration : none;
+    background    : rgba(192,192,192,0.8);
+    width           : 95%;
+    height          : 90px;
+    display         : block;
+    margin          : auto;
+    margin-top      : 5px;
+    padding-top     : 5px; 
+    border: 7px solid #ddd;
+    border-radius: 5px;
+    width: 550px;
+}
+a.info-box img{
+      height : 70px;
+      margin : 10px;
+      float  : left;
+}
+
+a.info-box h3{
+      padding : 0;
+      margin-bottom :0;
+      width : 90%;
+      color : black;
+}
+
+a.info-box p{
+      margin  : 0;
+      padding : 0;
+      width   : 90%;
+      color   : #131313;
+}
+
+a.info-box img.right{
+      float      : right;
+      margin-top : 25px;
+      height     :30px; 
+}
+/*============== Info full box =======================*/
+#info-box-full{
+      background    : rgba(192,192,192,0.8);
+      width         : 50%;
+      height :       : 20px;
+      display       : block;
+      margin        : auto;
+      margin-top    : 12px;
+      padding       : 70px;
+}
+
+#info-box-full img{
+    width : 90%;
+    margin: 25px;
+}
+
+#info-box-full h3{
+      text-align : center;
+}
+.store img{
+    height : 100px;
+    margin : auto;
+    float  : left;
+}
+
+#shop {
+    background    : rgba(192,192,192,0.8);
+      width         : 70%;
+      height :       : 20px;
+      display       : block;
+      margin        : auto;
+      margin-top    : 12px;
+      padding       : 10px;
+}
+
+#shop img{
+    width : 100%;
+    height: auto;
+}
+#shop a {
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: 2px 2px powderblue ;
+}
+
+#shop h3{
+    font-size: 40px;
+}
+
+#storep{
+      background    : rgba(192,192,192,0.8);
+      width         : 75%;
+      height :       : 20px;
+      display       : block;
+      margin        : auto;
+      margin-top    : 12px;
+      padding       : 10px;
+}
+
+#storep img{
+      width : 100%;
+}
+
+#storep h3{
+      text-align : center;
+}
+
+/*============== message for link on specials =======================*/
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: floralwhite;
+  color: cadetblue;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+#about img {
+  padding-top: 0px;
+  width: 100%;
+}
+#about{
+  padding-top: 5px;
+  display: inline-table;
+  margin-top: 102px;
+  width: 100%;
+    height: 50px;
+    background-color: black;
+    background-repeat: repeat-y;
+}
+
+h2{
+    font-family: helvetica;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    padding: 15px;
+}
+
+
+#about h3{
+    font-family: helvetica;
+    text-align: center;
+    font-size: 37px;
+    color: whitesmoke;
+}
+
+#about p{
+    font: helvetica;
+    text-align: left;
+    font-size: 20px;
+    color: whitesmoke;
+    padding-bottom: 20px;
+}
+
+#movies{
+    padding-top: 5px;
+    padding-bottom: 39px;
+    display: block;
+    margin-top: 102px;
+    width: 100%;
+    height: auto;
+    background-image: url(images/nj73bp0u.png);
+    background-repeat: repeat-y;
+}
+
+#main-one{
+    padding: 5px;
+    position: absolute;
+    margin-top: 102px;
+    width: 100%;
+    height: auto;
+    background-image: url(images/ude49bfo.png);
+}
+
+#contact{
+    display: block;
+    padding: 50px;
+    margin-top: 102px;
+    width: 95%;
+    height: auto;
+    background-color: gainsboro;
+    background-repeat: repeat-y;
+}
+
+#contact img{
+    width: 100%;
+    padding: 0px;
+}
+
+#contact h3{
+    font-family: helvetica;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+#movies-page{
+    padding-top: 5px;
+    padding-bottom: 3px;
+    display: block;
+    margin-top: 102px;
+    width: 100%;
+    height: auto;
+    background-color: gainsboro;
+    background-repeat: repeat-y;
+}
+
+#movies-page img{
+    width: 95%;
+    padding: 30px;
+}
+
+#movies-page p{
+    font: helvetica;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    padding-bottom: 18px;
+}
+
+#movies-page h3{
+    font-family: helvetica;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+#my-button{
+    display: inline-block;
+    padding: 15px 0;
+    margin: 15px 0;
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 14px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+}
+
+#my-button:hover{
+    border: 5px;
+    border-radius: 14px;
+    color: red;
+    background: white;
+}
+
+
+input{
+      width: 100%;
+      height: 25px;
+      margin : 12px 0;
+      border : 1px solid #929292;
+}
+
+textarea{
+      width: 100%;
+      height :25px;
+      margin : 12px 0;
+      border : 1px solid #929292;
+}
+
+.button{
+      display : block;
+      background-color: black;
+      text-decoration : none;
+      text-align  : center;
+      color       : white;
+      font-size   : 16px;
+      font-weight : 600;
+      margin : 12px 0;
+      padding : 8px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
